@@ -1,0 +1,9 @@
+Perquisite Knowledge:
+    - Idea of Casserole Dish
+    - Idea of Dinner Plate
+    - How VRAM works 
+    - Idea of buffer
+    - Idea of file formats
+    - Volatile Memory vs Non Volatile Memory
+    - malloc() and free()
+    - This article: https://superuser.com/questions/361188/how-do-applications-and-os-handle-very-big-files

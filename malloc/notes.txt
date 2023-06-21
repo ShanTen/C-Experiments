@@ -1,0 +1,32 @@
+Title: 
+    Dynamic Memory Allocation in C
+
+Functions Dealt With
+    - malloc 
+    - free
+    
+Preface:
+Learning about memory allocation and buffers in C.
+
+    
+Learning Description:
+    
+1) Function - malloc(size)
+    - Allocates specified amount of memory in system and returns pointer to that location.
+    - Does not depend on data type
+    - Allocates memory in bytes.
+    
+Questions:
+1) Lets suppose I am running a C program (.exe) file. 
+    + I have used malloc to allocate 20 bytes of memory 
+    + I have not freed the memory anywhere 
+    + In the middle of execution - if I ctrl+c and end the execution of the program, (.exe is not running)
+      Q: Is the allocated memory still reserved in my RAM?
+       A: In new operating systems (Greater than Windows NT and …) it automatically gets freed 
+               - Why: Because executables are assigned sectors to run in and when the executable stops running, the entire sector is called back hence it is freed.
+               In old OSes and embedded that might not be the case (so avoid that :skull_fa)
+               In such cases one might have to reboot/reset the system.
+               
+2) Will you always know the data type of what you are allocating using malloc()?
+    + yes, always.
+    
