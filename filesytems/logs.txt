@@ -1,18 +1,2 @@
 17-06-2023 13:10:23 Learnt File systems from [here](https://www.youtube.com/watch?v=mzUyMy7Ihk0)
-
-Files: long list of numbers stored as binary on a storage device,
-        it is only the way you read each list of numbers, that differentiates them.
-                (Pixel wise, wave amplitude wise, ASCII/Unicode for text, etc)
-
-Directory File : 
-    Records where multiple files (collection of numbers) start and end in a storage device.
-            Also length
-      Usually at the front of device.
-    Also stores size, creation data and modified (meta data essentially)
-
-Primary Files
-    - txt: text and strings
-    - wav: audio files (meta data exists at the beginning and also specifies how large the data is)
-    - bmp: bitmap files, meta data exists at the beginning. data is represented as RGB values 
-                + 3 Bytes represent the 3 colors - RGB which can be used to represent the color of the pixel
-              + Assume some "x" bytes required for 1 pixel, X is always >=3, the other bytes may be used for other values like transparency, etc.
+21-06-2023 22:26:40 Restarted filesystems and broke down learning
